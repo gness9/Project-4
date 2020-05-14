@@ -30,7 +30,7 @@ int read_to_memory()
 	
 	
   /* Read the wiki article into memory line by line. */
-  FILE *file = fopen("../../wiki.50short","r");//fopen("/homes/dan/625/wiki_dump.txt", "r");
+  FILE *file = fopen("/homes/dan/625/wiki_dump.txt", "r");
 
   if(file == NULL)
   {
