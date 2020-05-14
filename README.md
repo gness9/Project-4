@@ -1,8 +1,8 @@
 # Project-4
 Final CIS520 Project
 # What we have to do for performance analysis:
-Cores: 1, 2, 4, 8, 32
-Data Sizes: 100, 10000, 100000, 1 million
+Cores: 1, 2, 4, 8, 16
+Data Sizes: 1000, 10000, 100000, 1 million
 ## Things to track
 - The above
 - CPU Utilization
@@ -16,3 +16,4 @@ commands to run:
 - export TIME="time result\ncmd: %C\nreal: %es\nuser: %Us \nsys: %Ss \nmemory: %MKB \ncpu: %P"
 - /usr/bin/time -o test.txt sbatch ./[scheduled batch script]
 yes the cpu usage goes over 100%... idk why but it does.
+
